@@ -1,0 +1,378 @@
+body {
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  padding: 0;
+  background: white;
+}
+
+h1, h2, h3, h4, h5 {
+  text-transform: uppercase;
+}
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#main {
+  background: url("../images/header_bg.png") no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  min-height: 960px;
+}
+#main nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+#main nav ul li {
+  padding: 0;
+  display: inline-block;
+  margin: 3.5% 2% 10% 1%;
+}
+#main nav ul li a {
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+#main nav ul li a:hover {
+  color: #00ccff;
+}
+
+.row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5rem;
+}
+
+.hero-head .logo {
+  margin-bottom: 2em;
+  padding-top: 28%;
+}
+.hero-head h1 {
+  letter-spacing: 0.15em;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 1;
+  font-size: 42px;
+}
+.hero-head #bottom-arrow {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  width: 30px;
+  margin-top: -21px;
+  margin-left: -20px;
+}
+
+.block {
+  padding: 100px 0;
+}
+
+.section-head {
+  margin: 0 auto;
+}
+.section-head h2 {
+  color: #333333;
+  font-weight: 600;
+  letter-spacing: .08em;
+  font-size: 30px;
+}
+
+#projects {
+  background-color: #f8f8f8;
+}
+#projects .row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 90rem;
+}
+#projects .section-head {
+  margin-bottom: 80px;
+}
+
+.project-list .project-box {
+  height: 450px;
+  max-width: 480px;
+  position: relative;
+  margin: 0 1em 40px;
+}
+.project-list .project-box:hover .project-name {
+  opacity: 1;
+}
+
+.project-name {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 450px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+.project-name span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 200;
+}
+
+#kougou {
+  background: #fec5cd url("../images/kougou_mockup.png") no-repeat center center;
+  background-size: 80%;
+}
+
+#paycrave {
+  background: #b3eebd url("../images/paycrave_mockup.png") no-repeat center center;
+  background-size: 80%;
+}
+
+#hatch {
+  background: #aee3fb url("../images/hatch_mockup.png") no-repeat center center;
+  background-size: 80%;
+}
+
+.space {
+  background: #f8f8f8 no-repeat center center;
+  height: 450px;
+  max-width: 480px;
+  position: relative;
+  margin: 0 1em 40px 0;
+}
+
+#about {
+  background: #fff;
+}
+
+#about .row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 72.5rem;
+}
+#about .section-head {
+  margin-bottom: 80px;
+}
+#about p {
+  line-height: 2em;
+  font-size: 14px;
+  font-weight: 400;
+  color: #767676;
+  margin-left: 15px;
+  text-align: left;
+}
+#about p a {
+  color: #00ccff;
+}
+#about p a:hover {
+  color: #00a3cc;
+}
+#about ul {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 10px;
+}
+#about ul li {
+  display: inline-block;
+  padding: 10px 5px 0 5px;
+}
+
+#contact {
+  background: url("../images/contact_bg.png") no-repeat center center fixed;
+  background-size: cover;
+}
+#contact h2 {
+  margin-bottom: 20px;
+  color: white;
+}
+#contact h6 {
+  color: white;
+  font-size: 18px;
+  line-height: 1.75em;
+  margin-top: 1em;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+#contact .button {
+  padding: 12px 60px;
+  margin-top: 2em;
+  margin-bottom: 0;
+  border: 2px solid white;
+  background-color: inherit;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+}
+#contact .button:hover {
+  color: #00ccff;
+  background-color: white;
+}
+
+footer .logo {
+  width: 5%;
+  margin-bottom: 10px;
+}
+footer p {
+  color: #535353;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.project-header {
+  background: url("../images/project_header_bg.png") no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.project-header nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+.project-header nav ul li {
+  padding: 0 2%;
+  display: inline-block;
+  margin: 3% 0 3% 0;
+}
+.project-header nav ul li a {
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+}
+.project-header nav ul li a:hover {
+  color: #00ccff;
+}
+
+#left-arrow {
+  left: 5%;
+}
+
+#right-arrow {
+  right: 5%;
+}
+
+.arrow {
+  position: absolute;
+  margin-top: 2.1%;
+}
+
+.project-head {
+  width: 70%;
+  margin: 0 auto 100px auto;
+}
+.project-head h3 {
+  font-size: 40px;
+  font-weight: 200;
+  letter-spacing: 0.15em;
+  color: #333333;
+}
+.project-head .project-desc {
+  color: #767676;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 0 100px;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  margin-top: 40px;
+}
+
+.block-header {
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 0.15em;
+  color: #535353;
+}
+
+.block-desc {
+  color: #767676;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 0 100px;
+  line-height: 1.6;
+  text-align: left;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+
+.branding {
+  width: 100%;
+  margin-bottom: 100px;
+}
+.branding .style-tile {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.products {
+  margin-bottom: 100px;
+}
+
+.user-flow {
+  margin-bottom: 100px;
+}
+
+.wireframes {
+  margin-bottom: 100px;
+}
+
+.final {
+  margin-bottom: 100px;
+}
+.final .view-project {
+  margin-bottom: 60px;
+}
+.final .view-project a {
+  color: #00ccff;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.15em;
+}
+.final .view-project a:hover {
+  color: #00a3cc;
+}
+
+.block-image {
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}

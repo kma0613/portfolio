@@ -1,0 +1,198 @@
+@media screen and (max-width: 480px) {
+  .hero-head h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+  .hero-head .logo {
+    padding-top: 50%;
+  }
+
+  #main nav ul li {
+    margin: 6% 5% 10% 5%;
+    display: block;
+  }
+
+  .space {
+    height: 0;
+    max-width: 0;
+    position: relative;
+    margin: 0;
+  }
+
+  #about .profile-picture {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  #about p {
+    margin-left: 0;
+    text-align: center;
+  }
+  #about ul {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .project-list .project-box {
+    height: 280px;
+  }
+
+  .project-name {
+    height: 280px;
+  }
+
+  .project-head {
+    width: 80%;
+  }
+  .project-head .project-desc {
+    padding: 0;
+  }
+  .project-head h3 {
+    font-size: 35px;
+  }
+
+  .block-desc {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .product-picture {
+    margin-bottom: 30px;
+  }
+
+  .products {
+    margin-bottom: 70px;
+  }
+
+  .project-header nav ul li {
+    margin: 4% 0 6% 0;
+    padding-top: 1%;
+  }
+  .project-header nav ul li a {
+    font-size: 10px;
+    font-weight: 200;
+  }
+
+  .arrow {
+    height: 25px;
+    margin-top: 4.6%;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .hero-head .logo {
+    margin-bottom: 2em;
+    padding-top: 35%;
+  }
+
+  .space {
+    height: 0;
+    max-width: 0;
+    position: relative;
+    margin: 0;
+  }
+
+  #about .profile-picture {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  #about p {
+    margin-left: 0;
+    text-align: center;
+  }
+  #about ul {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .project-list .project-box {
+    height: 380px;
+  }
+
+  .project-name {
+    height: 380px;
+  }
+
+  .project-head {
+    width: 80%;
+  }
+  .project-head .project-desc {
+    padding: 0;
+  }
+
+  .block-desc {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .product-picture {
+    margin-bottom: 40px;
+  }
+
+  .products {
+    margin-bottom: 60px;
+  }
+
+  .project-header nav ul li {
+    margin: 3% 0 4% 0;
+    padding-top: 1%;
+  }
+  .project-header nav ul li a {
+    font-size: 12px;
+    font-weight: 200;
+  }
+
+  .arrow {
+    height: 30px;
+    margin-top: 3.3%;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+  .project-list .project-box {
+    height: 380px;
+  }
+
+  .project-name {
+    height: 380px;
+  }
+
+  #about .profile-picture {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+  #about p {
+    margin-left: 0;
+    text-align: center;
+  }
+  #about ul {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .space {
+    height: 0;
+    max-width: 0;
+    position: relative;
+    margin: 0;
+  }
+
+  .project-head .project-desc {
+    padding: 0;
+  }
+
+  .product-picture {
+    margin-bottom: 40px;
+  }
+
+  .products {
+    margin-bottom: 60px;
+  }
+
+  .arrow {
+    height: 30px;
+    margin-top: 2.6%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #main {
+    min-height: 800px;
+  }
+}
