@@ -4,9 +4,16 @@
     margin-bottom: 30px;
   }
   .hero-head .logo {
-    padding-top: 50%;
+    padding-top: 30%;
+    width: 35%;
+  }
+  .hero-head #bottom-arrow {
+    left: 51%;
   }
 
+  #main {
+    min-height: 550px;
+  }
   #main nav ul li {
     margin: 6% 5% 10% 5%;
     display: block;
@@ -191,12 +198,11 @@
     margin-top: 2.5%;
   }
 }
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1500px) {
   #main {
     min-height: 800px;
   }
-}
-@media screen and (min-width: 1500px) {
+
   .arrow {
     margin-top: 2.5%;
   }
