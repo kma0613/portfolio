@@ -4,7 +4,7 @@
     margin-bottom: 30px;
   }
   .hero-head .logo {
-    padding-top: 30%;
+    padding-top: 25%;
     width: 35%;
   }
   .hero-head #bottom-arrow {
@@ -15,7 +15,7 @@
     min-height: 550px;
   }
   #main nav ul li {
-    margin: 6% 5% 10% 5%;
+    margin: 6% 5% 8% 5%;
     display: block;
   }
 
