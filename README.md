@@ -1,5 +1,4 @@
-# Portfolio
-Kathy Ma | Portfolio
+# Kathy Ma | Portfolio
 
 This is Kathy Ma’s portfolio for all UI/UX design work. 
 
