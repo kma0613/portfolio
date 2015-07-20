@@ -204,6 +204,10 @@
 }
 @media screen and (min-width: 1500px) {
 
+  .hero-head .logo {
+    padding-top: 28%;
+  }
+
   .arrow {
     margin-top: 2.5%;
   }
