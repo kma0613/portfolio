@@ -164,6 +164,11 @@ a {
   background-size: 80%;
 }
 
+#pixarang {
+  background: #fce58b url("../images/pixarang_mockup.png") no-repeat center center;
+  background-size: 80%;
+}
+
 .space {
   background: #f8f8f8 no-repeat center center;
   height: 450px;
