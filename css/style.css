@@ -149,6 +149,11 @@ a {
   font-weight: 200;
 }
 
+#tl-lcs {
+  background: #989cfb url("../images/tl-lcs_mockup.png") no-repeat center center;
+  background-size: 80%;
+}
+
 #kougou {
   background: #fec5cd url("../images/kougou_mockup.png") no-repeat center center;
   background-size: 80%;
